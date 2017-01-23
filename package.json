@@ -1,0 +1,38 @@
+{
+  "name": "modify-property",
+  "version": "1.0.0",
+  "description": "For patching a property descriptor, including replacing getters/setters.",
+  "keywords": [
+    "replace",
+    "object",
+    "property",
+    "getter",
+    "setter",
+    "method",
+    "descriptor"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/modify-property",
+  "repository": "lamansky/modify-property",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "check-types": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
